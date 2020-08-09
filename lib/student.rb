@@ -52,7 +52,7 @@ class Student
     id = student_array[0]
     name = student_array[1]
     grade = student_array[2]
-    Student.new(name, grade, id)
+    Student.new(id, name, grade)
   end
 
 
